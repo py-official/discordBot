@@ -3,10 +3,9 @@ import disnake
 
 
 
-embed = {
-		"ErrorNo" : ["Successful!!", "Starting server"],
-		"ErrorServerHasAlreadyStarted" :["Error x 1", "Server has already started"],
-		"ErrorNoStop" : ["Successful!!", "Stopping server"]
+embed = {"ErrorNo" : ["Successful!!", "Starting server"],
+	"ErrorServerHasAlreadyStarted" :["Error x 1", "Server has already started"],
+	"ErrorNoStop" : ["Successful!!", "Stopping server"]
 	}
 
 def CreateEmbed(code):
