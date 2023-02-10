@@ -1,11 +1,6 @@
 from python_aternos import Client
 import python_aternos
-from jsonReader import getData
 
-
-
-login = getData("logData", "aternos", "login")
-password = getData("logData", "aternos", "password")
 
 print("Try to login in the aternos's account")
 print(f"Login: {login}")
