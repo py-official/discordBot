@@ -24,6 +24,6 @@ async def stop(ctx):
 def runBot():
     print("Try to start discord bot")
     try:
-        bot.run(getData("logData", "discord", "token"))
+        bot.run(token)
     except:
         print("Error of starting bot")    
