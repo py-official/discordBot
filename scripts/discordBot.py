@@ -1,6 +1,5 @@
 import disnake
 from disnake.ext import commands
-from jsonReader import getData
 from aternosPlugin import Start, Stop
 from objCreator import CreateEmbed
 
